@@ -1,5 +1,8 @@
 import React from 'react';
-
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import Container from 'react-bootstrap/Container';
+import Navbar from 'react-bootstrap/Navbar';
+import NavbarBrand from 'react-bootstrap/NavbarBrand';
 import './App.css';
 
 class App extends React.Component {
@@ -30,7 +33,15 @@ class App extends React.Component {
   }
   render() {
     return (
-      <div>Hello dear fans!</div>
+      <Router>
+        <Container className='p-0' fluid={true}>
+
+          <Navbar>
+            <Navbar.Brand>Dorje Kirsten</Navbar.Brand>
+          </Navbar>
+
+        </Container>
+      </Router>
     );
   }
 }
