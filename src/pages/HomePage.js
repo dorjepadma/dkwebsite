@@ -1,7 +1,10 @@
 import React from 'react';
 
+import Avatar from '../components/Avatar'
+
 function HomePage(props){
-  return(<p>The Home Page Source!</p>
+  return(
+    <Avatar />
   );
 }
 export default HomePage
