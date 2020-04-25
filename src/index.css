@@ -11,3 +11,29 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.dk-card {
+  margin: 20px;
+
+}
+.dk-card-image {
+  border-radius: 12px;
+  width: 360 px;
+  height: 576 px;
+  box-shadow: 0px 0px 3px 1 px #ccc;
+}
+
+.dk-card-info{
+  margin: 10px;
+  min-height: 100px
+}
+
+.dk-card-title {
+  font-size: 24px;
+  margin: 0px
+}
+
+.dk-card-subtitle {
+  font-size: 16px;
+  margin: 0px
+}
