@@ -11,9 +11,9 @@ function Avatar(props) {
     <Container fluid={true}>
       <Row className='justify-content-center py-5'>
         <Col md={6} sm={12}>
-          { props.title && <h1 className='display-1 font-weight-bold justify-content-center'>{props.title}</h1> }
-          { props.subtitle && <h3 className='display-5 font-weight-light justify-content-center'>{props.subtitle}</h3> }
-          { props.text && <h3 className='lead font-weight-light justify-content-center'>{props.text}</h3> }
+          { props.title && <h1 className='display-3 font-weight-bold justify-content-right'>{props.title}</h1> }
+          { props.subtitle && <h3 className='display-4 font-weight-light justify-content-center'>{props.subtitle}</h3> }
+          { props.text && <h3 className='display-4  font-weight-light justify-content-center'>{props.text}</h3> }
         </Col>
       </Row>
     </Container>

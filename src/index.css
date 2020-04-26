@@ -13,13 +13,13 @@ code {
 }
 
 .dk-card {
-  margin: 20px;
+  margin: 1%;
 
 }
 .dk-card-image {
   border-radius: 12px;
-  width: 360 px;
-  height: 576 px;
+ 
+  height: 75vh;
   box-shadow: 0px 0px 3px 1 px #ccc;
 }
 
@@ -39,9 +39,13 @@ code {
 }
 
 .avatar-img {
-  width: 50vh;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  box-sizing: border-box;
+  height: 40vh;  
+  border: .5vh solid black;
+  margin: 3;
+    position: relative;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   
 }
