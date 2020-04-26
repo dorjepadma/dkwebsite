@@ -4,7 +4,7 @@ import Card from '../components/Card';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 
-import Poegram from '../assets/images/poegram.png';
+import Poegram from '../assets/images/Poegram.png';
 import Cosmo from '../assets/images/cosmo.jpg';
 import Serpent from '../assets/images/Khendo-Khani.jpg'
 
