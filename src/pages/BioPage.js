@@ -7,7 +7,7 @@ function BioPage(props) {
   <div>
     <Avatar title={props.title} />
     <Content>
-      <p>Thank you for stopping by. I am Dorje. A poet, astrologer, tea master, and contemplative. Most importantly though, I am a full stack engineer. I have experience with React, Javascript, NodeJS, ExpressJS, PostgresSQL, and MongoDB. </p>
+      <p>Thank you for stopping by. I am Dorje. A poet, astrologer, tea master, and contemplative. Most importantly though, I am a full stack engineer. I have experience with React, Javascript, NodeJS, ExpressJS, dSQL, and MongoDB. </p>
 
       <p>I spent my twenties and thirties living at Chagdud Gonpa Rigdzin Ling, a buddhist retreat center. Then I left to raise a family and practice astrology. On the way I founded Planet Teas. </p>
 

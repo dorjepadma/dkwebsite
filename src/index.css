@@ -49,3 +49,12 @@ code {
     transform: translate(-50%, -50%);
   
 }
+
+.success-msg {
+  color: #94B0DA;
+  Padding: 10vh 15vh;
+}
+.err-msg {
+  color: #505A5B;
+  padding: 10vh 15vh;
+}
