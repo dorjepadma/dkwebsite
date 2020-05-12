@@ -22,7 +22,7 @@ class App extends React.Component {
       ],
       home: {
         title: 'Transform The world',
-        subtitle: 'Creating a luminescent tomorrow',
+        subtitle: 'Create a luminescent tomorrow',
         text: 'A few of the projects I have worked on'
       },
       bio: {
@@ -63,3 +63,4 @@ class App extends React.Component {
 }
 
 export default App;
+
