@@ -32,10 +32,10 @@ class Carousel extends React.Component {
         },
         {
           id:2,
-          title: 'Salud!',
-          subTitle: 'To enjoy',
+          title: 'Just a Recipe',
+          subTitle: 'Recipes without the Blog',
           imgSrc: Cosmo,
-          link: 'http://poegram-demo.herokuapp.com/AllPoegrams',
+          link: 'https://justarecipe.netlify.app/',
           selected: false
         },
           
