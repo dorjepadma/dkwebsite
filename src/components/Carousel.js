@@ -37,10 +37,8 @@ class Carousel extends React.Component {
           imgSrc: Cosmo,
           link: 'https://justarecipe.netlify.app/',
           selected: false
-        },
-          
+        },       
       ]
-
     }
   }
   handleCardClick = (id, card) => {
