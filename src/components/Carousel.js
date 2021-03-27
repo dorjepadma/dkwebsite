@@ -5,7 +5,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 
 import Poegram from '../assets/images/poegram.png';
-import neptune from '../assets/images/cosmo.jpg';
+import neptune from '../assets/images/neptune.jpg';
 import Serpent from '../assets/images/Khendo-Khani.jpg'
 import Heartastrology from '../assets/images/heartastrology.png'
 
