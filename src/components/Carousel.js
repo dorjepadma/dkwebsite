@@ -5,8 +5,9 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 
 import Poegram from '../assets/images/poegram.png';
-import Cosmo from '../assets/images/cosmo.jpg';
+import neptune from '../assets/images/neptune.jpg';
 import Serpent from '../assets/images/Khendo-Khani.jpg'
+import Heartastrology from '../assets/images/heartastrology.png'
 
 class Carousel extends React.Component {
 
@@ -17,7 +18,7 @@ class Carousel extends React.Component {
         {
           id:0,
           title: 'Poegram',
-          subTitle: 'Pure Poetry Art',
+          subTitle: 'Pure Poetry Art, a React website',
           imgSrc: Poegram,
           link: 'http://poegram-demo.herokuapp.com/AllPoegrams',
           selected: false
@@ -25,17 +26,25 @@ class Carousel extends React.Component {
         {
           id:1,
           title: 'Dorje Shinno',
-          subTitle: 'Single Stroke Serpent Painting',
+          subTitle: 'Single Stroke Serpent Painting, a wordpress website',
           imgSrc: Serpent,
           link: 'https://serpentpainting.com',
           selected: false
         },
         {
           id:2,
-          title: 'Just a Recipe',
-          subTitle: 'Recipes without the Blog',
-          imgSrc: Cosmo,
-          link: 'https://justarecipe.netlify.app/',
+          title: 'Astral Tunes',
+          subTitle: 'Creating Music through astrology, a React website',
+          imgSrc: neptune,
+          link: 'https://Astraltunes.com',
+          selected: false
+        },
+        {
+          id:3,
+          title: 'Heart Astrology',
+          subTitle: 'Astrology with heart, a wordpress website',
+          imgSrc: Heartastrology,
+          link: 'https://Heartastrology.com',
           selected: false
         },
           
@@ -77,3 +86,4 @@ class Carousel extends React.Component {
   }
 }
 export default Carousel
+
