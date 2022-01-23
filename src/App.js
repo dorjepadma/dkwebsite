@@ -22,8 +22,8 @@ class App extends React.Component {
       ],
       home: {
         title: 'Transform The world',
-        subtitle: 'Create a luminescent tomorrow',
-        text: 'A few of the projects I have worked on:'
+        subtitle: 'Luminescent Work',
+        text: 'A few of my projects:'
       },
       bio: {
         title: 'Pursue your passions'
