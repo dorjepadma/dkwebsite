@@ -6,8 +6,9 @@ import Row from 'react-bootstrap/Row';
 
 import Poegram from '../assets/images/poegram.png';
 import neptune from '../assets/images/neptune.jpg';
-import Serpent from '../assets/images/Khendo-Khani.jpg'
-import Heartastrology from '../assets/images/heartastrology.png'
+import Serpent from '../assets/images/Khendo-Khani.jpg';
+import Heartastrology from '../assets/images/heartastrology.png';
+import NestzLogo from '../assets/images/Nestz-logo3.jpeg';
 
 class Carousel extends React.Component {
 
@@ -17,10 +18,10 @@ class Carousel extends React.Component {
       items: [
         {
           id:0,
-          title: 'Poegram',
-          subTitle: 'Pure Poetry Art, a React website',
-          imgSrc: Poegram,
-          link: 'http://poegram-demo.herokuapp.com/AllPoegrams',
+          title: 'Nestz Life',
+          subTitle: 'Nestz, a React website',
+          imgSrc: NestzLogo,
+          link: 'https://nestz.life',
           selected: false
         },
         {
@@ -45,6 +46,14 @@ class Carousel extends React.Component {
           subTitle: 'Astrology with heart, a wordpress website',
           imgSrc: Heartastrology,
           link: 'https://Heartastrology.com',
+          selected: false
+        },
+        {
+          id:4,
+          title: 'Poegram',
+          subTitle: 'Pure Poetry Art, a React website',
+          imgSrc: Poegram,
+          link: 'http://poegram-demo.herokuapp.com/AllPoegrams',
           selected: false
         },
           
