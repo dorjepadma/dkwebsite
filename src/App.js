@@ -22,7 +22,7 @@ class App extends React.Component {
       ],
       home: {
         title: 'Transform The world',
-        subtitle: 'Create a luminescent tomorrow',
+        subtitle: 'Luminescent Work',
         text: 'A few of my projects:'
       },
       bio: {
