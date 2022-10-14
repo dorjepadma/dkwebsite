@@ -5,3 +5,5 @@ it is called:
 ### DorjeKirsten.com
 
 Thank you for visiting. Please come back soon. 
+
+This web site is depricated and no longer hosted.
